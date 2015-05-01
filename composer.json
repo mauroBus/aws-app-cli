@@ -1,0 +1,12 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "~2.8",
+        "symfony/console": "~2.6"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Devspark\\": "packages/devspark/src"
+        }
+    }
+}

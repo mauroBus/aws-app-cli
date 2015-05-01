@@ -1,0 +1,19 @@
+[LOGGER-CLI]
+level[] = critical
+level[] = error
+level[] = warning
+level[] = information
+
+topic[] = <<TopicName1>>
+topic[] = <<TopicName2>>
+
+[SNS-TOPICS]
+<<TopicName1>> = "<<AWS_ARN_TopicName1>>"
+<<TopicName2>> = "<<AWS_ARN_TopicName2>>"
+
+[AWS]
+credentials.key = "<<AWS_CREDENTIALS_KEY>>"
+credentials.secret = "<<AWS_CREDENTIALS_SECRET>>"
+region = "<<AWS_REGION>>"
+
+

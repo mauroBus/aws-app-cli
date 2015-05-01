@@ -1,0 +1,16 @@
+{
+    "chmod": "0755",
+    "directories": [
+        "src"
+    ],
+    "finder": [
+        {
+            "name": "*.*",
+            "exclude": ["Tests"],
+            "in": "vendor"
+        }
+    ],
+    "main": "src/application.php",
+    "output": "devspark-aws-cli.phar",
+    "stub": true
+}

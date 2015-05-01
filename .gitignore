@@ -1,3 +1,6 @@
+# App
+/config/cli.config.ini
+
 # Cache and logs (Symfony2)
 /app/cache/*
 /app/logs/*
@@ -35,3 +38,9 @@
 
 # Composer PHAR
 /composer.phar
+
+# Box PHAR
+/box.phar
+
+# IDEs
+.idea
